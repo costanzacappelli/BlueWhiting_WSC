@@ -1,0 +1,9 @@
+cff-version: 1.2.0
+authors:
+- family-names: "Cappelli"
+  given-names: "Costanza"
+title: "BlueWhiting_WSC"
+version: 1.0.0
+date-released: 2024-05-29
+url: "https://github.com/costanzacappelli/BlueWhiting_WSC"
+
