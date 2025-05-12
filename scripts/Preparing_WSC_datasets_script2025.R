@@ -31,8 +31,8 @@ library(reshape2)
 # uwnd = Eastward wind component; vwnd = Northward wind component
 # Source: NCAR/NCEP Reanalysis project
 # Note: data downloaded in October 2024, so contains data available for January 1948 - September 2024
-uwnd <- nc_open("Data/Glorys/October2024_20241002/uwnd10m.mon.mean.nc")
-vwnd <- nc_open("Data/Glorys/October2024_20241002/vwnd10m.mon.mean.nc")
+uwnd <- nc_open("Data/windstress_NCARNCEPreanalysis_20241002/uwnd10m.mon.mean.nc")
+vwnd <- nc_open("Data/windstress_NCARNCEPreanalysis_20241002/vwnd10m.mon.mean.nc")
 
 # Get variables from NetCDF files
 lat <- ncvar_get(uwnd, 'lat')

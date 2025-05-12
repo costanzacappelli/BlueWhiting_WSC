@@ -50,7 +50,7 @@ library(ggeffects)
                       # SSB: spawning stock biomass in tonnes
                       # logSI: natural log of Survival Index (SI = R/SSB)
                       # CANUM1: catch numbers of age 1; shifted back to birth-year
-                      # logCANUM1: natural log of catch numbers of age 1; shifted back to birth-year
+                      # logCANUM1: natural log of catch numbers of age 1
                       # WSClag1: WSC annual avg. (Jan-Dec) lagged 1 year ahead of spawning, e.g. WSC in 1980 shifted to year 1981
                       # WSClag1_MAM: WSC spawning season avg. (March-April-May) lagged 1 year ahead of spawning
 
@@ -446,6 +446,8 @@ nosim=2
 
 # Load myforecast() function from SAM library
 source("GE/myforecast.R")
+#Custom function for forecasting future SSB values using the SAM model output under fixed recruitment scenarios.
+#Inputs: a) SAM model output, b) Recruitment value to impose.
 
 # Prepare exd dataframe
 # Create exd with only necessary columns for SSB forecast (REA1, GM, WSC max/min)
