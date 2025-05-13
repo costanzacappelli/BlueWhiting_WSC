@@ -1,6 +1,6 @@
 **Ocean-climate conditions drive the dynamics of a large fish population and forecast reproductive success one year before spawning**
 
-This repository contains data and R scripts used to analyze the relationship between wind stress curl (WSC) and blue whiting recruitment in the Northeast Atlantic.
+This repository contains the data and R scripts used in the analyses for the manuscript entitled "Ocean-climate conditions drive the dynamics of a large fish population and forecast reproductive success one year before spawning.". The focus of this work is to investigate how wind stress curl (WSC), a key indicator of ocean-climate variability, influences the recruitment dynamics of blue whiting (Micromesistius poutassou) in the Northeast Atlantic. The analyses aim to identify climate-recruitment relationships and assess their potential for forecasting reproductive success up to one year in advance.
 
 ### DATA:
 This folder contains all input datasets and model outputs needed to perform the analyses described in the scripts. 
