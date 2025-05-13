@@ -35,16 +35,18 @@ Custom function to forecast future SSB values using the SAM model output under f
 Used in retrospective forecasting from 2005–2023, where recruitment predictions (from REA1, GM or WSC scenarios) are inserted into the SAM framework to evaluate how SSB would evolve under those recruitment conditions.  
 Inputs: a) SAM model output, b) Recruitment value to impose.  
 
-### SCRIPTS:
-1) **Preparing_WSC_dataset_script2025.R**
+**Preparing_WSC_dataset_script2025.R**  
 This script processes uwnd and vwnd wind components to compute wind stress curl (WSC).  
-Outputs:  
+Outputs:
+
 A) Spatial explicit WSC datasets (1981–2023) over ROI (Lon: -48 to 8, Lat: 40 to 75):  
-   - df_monthly_roi: monthly mean WSC   
-   - df_annual_roi: annual mean WSC  
-B) WSClag1 indices (1981-2023) over BOX (Lon: -17 to -12, Lat: 52 to 55):    
-   - WSClag1_JanDec_DF: annual (Jan–Dec) WSC avg. lag-1 (e.g., WSC Jan–Dec in 1980 → WSClag1 in 1981)  
-   - WSClag1_MAM_DF: spawning season (Mar–May) WSC avg. lag-1  
+- `df_monthly_roi`: monthly mean WSC  
+- `df_annual_roi`: annual mean WSC  
+
+B) WSClag1 indices (1981–2023) over BOX (Lon: -17 to -12, Lat: 52 to 55):  
+- `WSClag1_JanDec_DF`: annual (Jan–Dec) WSC avg. lag-1 (e.g., WSC Jan–Dec in 1980 → WSClag1 in 1981)  
+- `WSClag1_MAM_DF`: spawning season (Mar–May) WSC avg. lag-1
+ 
 
 2) **BW_WSC_analyses_script2025.R**  
 This script performs the main analyses: regression modeling, predictive skill assessment, and SSB forecasts.  
