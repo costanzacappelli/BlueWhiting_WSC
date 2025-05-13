@@ -1,4 +1,4 @@
-**Ocean-climate conditions drive the dynamics of a large fish population 4 and forecast reproductive success one year before spawning**
+**Ocean-climate conditions drive the dynamics of a large fish population and forecast reproductive success one year before spawning**
 
 This repository contains data and R scripts used to analyze the relationship between wind stress curl (WSC) and blue whiting recruitment in the Northeast Atlantic.
 
