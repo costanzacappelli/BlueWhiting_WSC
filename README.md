@@ -43,7 +43,7 @@ Used for forecasting future SSB under four recruitment prediction scenarios list
 ---
 
 ### SCRIPTS:
-1) **Preparing_WSC_dataset_script2025.R**  
+1) **`Preparing_WSC_dataset_script2025.R`**  
 This script processes _uwnd_ and _vwnd_ wind stress components to compute wind stress curl (WSC).  
 **Outputs:**
 
@@ -56,7 +56,7 @@ B) WSClag1 indices (1981–2023) over BOX area (Lon: -17 to -12, Lat: 52 to 55):
 - `WSClag1_MAM_DF`: Spawning season (Mar–May) WSC average lag-1
  
 
-2) **BW_WSC_analyses_script2025.R**  
+2) **`BW_WSC_analyses_script2025.R`**  
 This script performs the main analyses: regression modeling, predictive skill assessment, and SSB forecasts.  
 **Key components:**  
 - Fits recruitment models: RI, E, A1, RE, REA1, GM
