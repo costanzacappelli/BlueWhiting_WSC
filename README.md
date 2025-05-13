@@ -45,10 +45,12 @@ Used for forecasting future SSB under four recruitment prediction scenarios list
 ### SCRIPTS:
 1) **Preparing_WSC_dataset_script2025.R**  
 This script processes _uwnd_ and _vwnd_ wind stress components to compute wind stress curl (WSC).  
-**Outputs:**  
+**Outputs:**
+
 A) Spatial explicit WSC datasets (1981–2023) over region of interest (ROI: Lon: -48 to 8, Lat: 40 to 75):  
 - `df_monthly_roi`: Monthly mean WSC  
-- `df_annual_roi`: Annual mean WSC  
+- `df_annual_roi`: Annual mean WSC
+  
 B) WSClag1 indices (1981–2023) over BOX area (Lon: -17 to -12, Lat: 52 to 55):  
 - `WSClag1_JanDec_DF`: Annual (Jan–Dec) WSC average lag-1 (e.g., WSC Jan–Dec in 1980 → WSClag1 in 1981)  
 - `WSClag1_MAM_DF`: Spawning season (Mar–May) WSC average lag-1
